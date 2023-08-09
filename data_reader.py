@@ -10,4 +10,4 @@ def pull_raw_data(file_path):
 
 def bogies_by_destination(each_line):
     tokenized_line = each_line.split(" ")
-    return tokenized_line[3:]
+    return tokenized_line[2:]
